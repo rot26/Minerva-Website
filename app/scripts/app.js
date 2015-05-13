@@ -24,11 +24,11 @@ angular
         controller: 'AboutCtrl'
       })
       .when('/team', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'views/team.html',
+        controller: 'TeamCtrl'
       })
       .when('/contact', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl'
       });
   });

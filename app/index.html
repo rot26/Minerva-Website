@@ -26,17 +26,20 @@
       <div class="jumbotron head-animate" ng-show="home" ng-controller="MainCtrl">
         <p class="lead">Weclome to</p>
         <h1 class="company">Minerva</h1>
+        <h2>Making Complex Applications Simple</h2>
       </div>
 
       <div class="navbar navbar-default" ng-controller="NavCtrl" role="navigation">
-        <div class="navbar-header" ng-if="home">
-          <a class="navbar-brand" href="#/"><span class="company">Minerva</span></a>
+        <div class="container">
+          <div class="navbar-header" ng-if="home">
+            <a class="navbar-brand" href="#/"><span class="company">Minerva</span></a>
+          </div>
+          <ul class="nav navbar-nav text-center" ng-class="{'navbar-center': !home, 'navbar-right': home}">
+            <li><a ng-href="#/about">About</a></li>
+            <li><a ng-href="#/team">Team</a></li>
+            <li><a ng-href="#/contact">Contact</a></li>
+          </ul>
         </div>
-        <ul class="nav navbar-nav text-center" ng-class="{'navbar-center': !home, 'navbar-right': home}">
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#/team">Team</a></li>
-          <li><a ng-href="#/contact">Contact</a></li>
-        </ul>
       </div>
     </div>
 
@@ -75,6 +78,8 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/nav.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+        <script src="scripts/controllers/team.js"></script>
         <!-- endbuild -->
 </body>
 </html>

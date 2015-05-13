@@ -84,12 +84,12 @@ body {
 
 .head-animate.ng-hide-add.ng-hide-add-active,
 .head-animate.ng-hide-remove.ng-hide-remove-active {
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
 }
 
 .head-animate.ng-hide {
-  margin-top: -13em;
+  margin-top: -189px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -115,7 +115,7 @@ body {
   }
 
   .animate-show.ng-hide {
-    margin-top: -18em;
+    margin-top: -253px;
   }
 }
 
