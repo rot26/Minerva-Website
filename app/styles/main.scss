@@ -50,11 +50,7 @@ body {
 .jumbotron {
   text-align: center;
   background: transparent;
-
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
+  margin: 0 auto;
 }
 
 /* Supporting marketing content */
@@ -94,7 +90,7 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
+  .container, .jumbotron {
     max-width: 730px;
   }
 
@@ -105,16 +101,13 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
+
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
-    border-bottom: 0;
+    padding: .1em;
   }
 
-  .animate-show.ng-hide {
+  .head-animate.ng-hide {
     margin-top: -253px;
   }
 }
@@ -124,6 +117,10 @@ body {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.company {
+  margin-bottom: 1em;
 }
 
 .company::after {
