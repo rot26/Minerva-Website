@@ -25,7 +25,12 @@ body {
 
 /* Custom page header */
 .header {
-  margin-bottom: 10px;
+  padding: .1;
+  &.regular {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+  }
+
 
   .intro {
     padding: 0;
@@ -55,6 +60,7 @@ body {
   text-align: center;
   background: transparent;
   margin: 0 auto;
+  padding: 0;
 }
 
 /* Supporting marketing content */
@@ -127,6 +133,10 @@ body {
 }
 
 .company {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 1em;
 }
 
