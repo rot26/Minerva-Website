@@ -14,7 +14,7 @@ angular.module('minervaioApp')
       'AngularJS',
       'Karma'
     ];
-     
+          
     $scope.$on('$routeChangeSuccess', function() {
       $scope.home = ($window.location.hash.replace('#/', '') === '');
     });
