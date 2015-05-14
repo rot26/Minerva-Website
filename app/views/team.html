@@ -1,1 +1,23 @@
-<p>This is the team view.</p>
+<div class="row text-center">
+  <h1>Meet The Team</h1>
+</div>
+
+<div class="row" ng-repeat="section in team">
+
+  <h1>{{ section.type }}</h1>
+
+  <div class="media" ng-repeat="person in section.people">
+    <div class="media-left">
+      <a href="person.url">
+        <img src="people/{{ person.img}}" alt="{{ person.name }}" height="100" width="100">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">{{ person.name }}</h4>
+      <p ng-if="person.company">Company: <a href="person.url">{{ person.company }}</a></p>
+      <p ng-if="(!person.company && person.url)">Personal Site: <a href="person.url">{{ person.url }}</a></p>
+      <p>{{ person.description }}</p>
+    </div>
+  </div>
+
+</div>
