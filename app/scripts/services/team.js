@@ -28,13 +28,13 @@ angular.module('minervaioApp')
             img: 'doug-rayburn.jpg',
             company: 'A Prize Inside, Inc.',
             url: 'http://www.aprizeinside.com/',
-            description: 'Doug is a seasoned creative technologist with over 17 years of professional experience developing enterprise systems and websites. Doug started his professional career at Cambridge Technology Partners in 1995, then served as Director of Internet Operations at DataPlay in 2000 where he co-invented ContentKey technology, a DRM solution for DataPlay\'s quarter-sized optical disc. DataPlay won the best in show award at the 2001 Consumer Electronics Show.'
+            description: 'Doug is a seasoned creative technologist with over 20 years of professional experience developing enterprise systems and websites. Doug started his professional career at Cambridge Technology Partners in 1995, then served as Director of Internet Operations at DataPlay in 2000 where he co-invented ContentKey technology, a DRM solution for DataPlay\'s quarter-sized optical disc. DataPlay won the best in show award at the 2001 Consumer Electronics Show.'
           },
           {
             name: 'Gabriel Walford',
             img: 'gabriel-walford.jpg',
             url: 'http://gabrielwalford.com/',
-            description: 'Eric is passionate about creating effective, functional, but well architected applications that are easily understood and exciting to the user. He have experience as a full stack developer building the front end of websites and applications, back end API’s with Node and PHP, as well as physical computing / internet of things projects for internationally recognized clients.'
+            description: 'Gabe is passionate about creating effective, functional, but well architected applications that are easily understood and exciting to the user. He have experience as a full stack developer building the front end of websites and applications, back end API’s with Node and PHP, as well as physical computing / internet of things projects for internationally recognized clients.'
           },
           {
             name: 'Matthew Gordon',
