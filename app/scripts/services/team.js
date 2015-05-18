@@ -48,6 +48,13 @@ angular.module('minervaioApp')
             company: 'Metroid',
             url: 'http://www.metroid.io/',
             description: 'He is very passionate about code and developing with best practices in mind. He is a coder which means that he spend countless amount of hours researching and reading to find new ways to solve problems. He will hate the code he wrote 6 months ago. There are always ways to improve your code and better ways to test it. He write code to make the world a better place. He live to code and you can find me in-front of a computer coding for about 12 hours a day and never getting bored.'
+          },
+          {
+            name: 'Denny Cunningham',
+            img: 'denny-cunningham.jpg',
+            company: 'Hoorooh Digital',
+            url: 'http://hooroohdigital.com /',
+            description: 'Needs Description'
           }
         ]
       },
@@ -65,6 +72,18 @@ angular.module('minervaioApp')
             img: 'ryan-mccarthy.jpg',
             url: 'http://www.mccarthyarts.com/',
             description: 'For the past 15 years he has lived and breathed the graphic design, digital, and multimedia realm. Whether it\'s website creation, video production, managing a team, or creative direction for a mobile app, his passion for smart design and innovation is alive in everything he does.'
+          }
+        ]
+      },
+      {
+        type: 'Project Managers',
+        people: [
+          {
+            name: 'Chris Cruz',
+            img: 'chris-cruz.jpg',
+            company: 'Hoorooh Digital',
+            url: 'http://hooroohdigital.com /',
+            description: 'Needs Description'
           }
         ]
       },
