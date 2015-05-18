@@ -96,6 +96,13 @@ angular.module('minervaioApp')
             company: 'Top Notch, Ltd',
             url: 'http://topnotchltd.com/',
             description: 'Nolan is an accomplished senior software quality assurance engineer with experience in both manual and automated testing of web-based, enterprise and stand-alone software systems. He possesses excellent communication and collaboration skills with extensive experience in functional, exploratory, load, compatibility, regression, automation and localization test development using both advanced Agile and Waterfall methodologies. Additionally, he provides directory structure analysis and internationalized environment implementation. His skill set also includes hardware configuration, system maintenance and data recovery capabilities, workstation/lab network setup, repairs and troubleshooting.'
+          },
+          {
+            name: 'Jake Wilson',
+            img: 'jake-wilson.jpg',
+            company: 'Top Notch, Ltd',
+            url: 'http://topnotchltd.com/',
+            description: 'Needs Description'
           }
         ]
       },
