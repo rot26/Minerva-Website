@@ -16,7 +16,7 @@ angular.module('minervaioApp')
           {
             name: 'Eric Glasser',
             img: 'eric-glasser.jpg',
-            description: 'Eric started his first technology company in while a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to be a painful process. Now he is looking to bring this expertise to clients with Minerva.'
+            description: 'Eric started his first technology company when he was a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to be a painful process. Now he is looking to bring this expertise to clients with Minerva.'
           }
         ]
       },
