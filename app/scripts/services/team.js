@@ -16,13 +16,20 @@ angular.module('minervaioApp')
           {
             name: 'Eric Glasser',
             img: 'eric-glasser.jpg',
-            description: 'Eric started his first technology company in while a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to hurt. Now he is looking to bring this expertise to clients with Minerva.'
+            description: 'Eric started his first technology company in while a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to be a painful process. Now he is looking to bring this expertise to clients with Minerva.'
           }
         ]
       },
       {
         type: 'Developers',
         people: [
+          {
+            name: 'Ryan ‘Cold’ Bush',
+            img: 'ryan-bush.jpg',
+            company: 'Cold and Logical',
+            url: 'http://www.coldlogical.com/',
+            description: 'Cold has been an industry power house in the mobile realm since his inception in 2008. Working with start-ups all the way up to huge companies such as Lockheed Martin, Tata Consultancy Services, and Apple, Cold has developed a strong communication skill set that allows him to understand client needs. He has experience in every layer of application programming, from database implementations to user interfaces. Cold constantly looks for ways to improve his coding abilities and is always researching the newest code architectures. Expecting the best is a good start when working with him.'
+          },
           {
             name: 'Doug Rayburn',
             img: 'doug-rayburn.jpg',
@@ -47,14 +54,16 @@ angular.module('minervaioApp')
             img: 'mansoor-bahramand.jpg',
             company: 'Metroid',
             url: 'http://www.metroid.io/',
-            description: 'Mansoor is very passionate about code and developing with best practices in mind. He is a coder, which means that he spends countless amount of hours researching and reading to find new ways to solve problems. He will hate the code he wrote six months ago, as there are always ways to improve your code and better ways to test it. He writes code to make the world a better place. He lives to code and you can find him in front of a computer coding for about 12 hours a day, never getting bored.'
+            description: 'Mansoor is very passionate about code and developing with best practices in mind. He is a coder, which means that he spends countless amount of hours researching and reading to find new ways to solve problems. He will hate the code he wrote six months ago, as there are always ways to improve your code and better ways to test it. He writes code to make the world a better place. He lives to code and you can find him in front of a computer coding for about 12 hours a day, never getting bored.',
+            hide: true
           },
           {
             name: 'Denny Cunningham',
             img: 'denny-cunningham.jpg',
             company: 'Hoorooh Digital',
             url: 'http://hooroohdigital.com /',
-            description: 'Needs Description'
+            description: 'Needs Description',
+            hide: true
           }
         ]
       },
@@ -83,9 +92,11 @@ angular.module('minervaioApp')
             img: 'chris-cruz.jpg',
             company: 'Hoorooh Digital',
             url: 'http://hooroohdigital.com /',
-            description: 'Needs Description'
+            description: 'Needs Description',
+            hide: true
           }
-        ]
+        ],
+        hide: true
       },
       {
         type: 'QA and Testing',
@@ -102,7 +113,8 @@ angular.module('minervaioApp')
             img: 'jake-wilson.jpg',
             company: 'Top Notch, Ltd',
             url: 'http://topnotchltd.com/',
-            description: 'Needs Description'
+            description: 'Needs Description',
+            hide: true
           }
         ]
       },
@@ -114,7 +126,7 @@ angular.module('minervaioApp')
             img: 'kishan-ananthram.jpg',
             company: 'IonIndea',
             url: 'http://www.ionidea.com/',
-            description: 'Kishan is an entrepreneur, technologist, business manager, business strategy advisor and a member of the board of directors. He has deep experience in information technology services and solutions, as well as in business process outsourcing. His specialties include executive leadership, strategic planning, operations management and customer relationship management.'
+            description: 'Kishan is an entrepreneur, technologist, business manager, and business strategy advisor. He has deep experience in information technology services and solutions, as well as in business process outsourcing. His specialties include executive leadership, strategic planning, operations management and customer relationship management.'
           },
           {
             name: 'Craig McDonnell',

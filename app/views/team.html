@@ -2,11 +2,11 @@
   <h1>Meet The Team</h1>
 </div>
 
-<div class="row" ng-repeat="section in team">
+<div class="row" ng-if="!section.hide" ng-repeat="section in team">
 
   <h1>{{ section.type }}</h1>
 
-  <div class="media" ng-repeat="person in section.people">
+  <div class="media" ng-if="!person.hide" ng-repeat="person in section.people">
     <div class="media-left">
       <a href="person.url">
         <img src="people/{{ person.img}}" alt="{{ person.name }}" height="100" width="100">
