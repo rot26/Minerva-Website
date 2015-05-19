@@ -24,7 +24,7 @@ angular.module('minervaioApp')
         type: 'Developers',
         people: [
           {
-            name: 'Ryan ‘Cold’ Bush',
+            name: 'Ryan \'Cold\' Bush',
             img: 'ryan-bush.jpg',
             company: 'Cold and Logical',
             url: 'http://www.coldlogical.com/',
