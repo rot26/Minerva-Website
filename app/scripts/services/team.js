@@ -16,8 +16,7 @@ angular.module('minervaioApp')
           {
             name: 'Eric Glasser',
             img: 'eric-glasser.jpg',
-            description: 'Eric started his first technology company when he was
-             a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to be a painful process. Now he is looking to bring this expertise to clients with Minerva.'
+            description: 'Eric started his first technology company when he was a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to be a painful process. Now he is looking to bring this expertise to clients with Minerva.'
           }
         ]
       },
@@ -114,7 +113,7 @@ angular.module('minervaioApp')
             img: 'jake-wilson.jpg',
             company: 'Top Notch, Ltd',
             url: 'http://topnotchltd.com/',
-            description: 'Jake is an accomplished quality assurance professional. He is a certified scrum master and believes in agile testing. He has a strong passion for QA and regularly attends conferences and keeps up on the latest happenings in the QA industry. He has 15+ years experience testing mobile, software, web, enterprise applications. He can develop a QA strategy for just about anything and can execute across all facets of the release lifecycle. His motto is "fail fast".'
+            description: 'Jake is an accomplished quality assurance professional. He is a certified scrum master and believes in agile testing. He has a strong passion for QA and regularly attends conferences and keeps up on the latest happenings in the QA industry. He has 15+ years experience testing mobile, software, web, enterprise applications. He can develop a QA strategy for just about anything and can execute across all facets of the release lifecycle. His motto is \"fail fast\".'
           }
         ]
       },
