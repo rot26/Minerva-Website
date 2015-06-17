@@ -153,6 +153,20 @@ body {
   animation: fadein 2s;
 }
 
+.logo {
+  color: transparent !important;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-image: url('/images/logo.png');
+  width: 250px;
+  height: 193px;
+}
+
+.logo--menu {
+  width: 65px;
+  height: 50px;
+}
+
 .social {
   display: inline-block;
   background-size: 100% 100%;
