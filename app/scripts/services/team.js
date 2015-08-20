@@ -41,13 +41,15 @@ angular.module('minervaioApp')
             name: 'Gabriel Walford',
             img: 'gabriel-walford.jpg',
             url: 'http://gabrielwalford.com/',
-            description: 'Gabe is passionate about creating effective, functional, but well-architected applications that are easily understood and exciting to the user. He has experience as a full stack developer building the front end of websites and applications, back end API’s with Node and PHP, as well as physical computing / internet of things projects for internationally recognized clients.'
+            description: 'Gabe is passionate about creating effective, functional, but well-architected applications that are easily understood and exciting to the user. He has experience as a full stack developer building the front end of websites and applications, back end API’s with Node and PHP, as well as physical computing / internet of things projects for internationally recognized clients.',
+            hide: true
           },
           {
             name: 'Matthew Gordon',
             img: 'matthew-gordon.jpg',
             url: 'http://www.ratherironic.com/',
-            description: 'Matthew is a strongly-motivated senior web developer with specific strengths in front-end web technologies. He is thoroughly proficient in the latest front-end coding standards and practices with a thirst for creating inspiring work. His goal is to utilize knowledge of web technologies to provide creative input and direction/leadership for web applications, while still maintaining the highest quality of code.'
+            description: 'Matthew is a strongly-motivated senior web developer with specific strengths in front-end web technologies. He is thoroughly proficient in the latest front-end coding standards and practices with a thirst for creating inspiring work. His goal is to utilize knowledge of web technologies to provide creative input and direction/leadership for web applications, while still maintaining the highest quality of code.',
+            hide: true
           },
           {
             name: 'Mansoor Bahramand',
@@ -125,16 +127,19 @@ angular.module('minervaioApp')
             img: 'kishan-ananthram.jpg',
             company: 'IonIndea',
             url: 'http://www.ionidea.com/',
-            description: 'Kishan is an entrepreneur, technologist, business manager, and business strategy advisor. He has deep experience in information technology services and solutions, as well as in business process outsourcing. His specialties include executive leadership, strategic planning, operations management and customer relationship management.'
+            description: 'Kishan is an entrepreneur, technologist, business manager, and business strategy advisor. He has deep experience in information technology services and solutions, as well as in business process outsourcing. His specialties include executive leadership, strategic planning, operations management and customer relationship management.',
+            hide: true
           },
           {
             name: 'Craig McDonnell',
             img: 'craig-mcdonnell.jpg',
             company: 'Charter Communications',
             url: 'https://www.charter.com/',
-            description: 'Craig designs and deploys service solutions to streamline data reporting through automation to increase process efficiencies and productivity. As a technology architect, professional services business strategist and professional consultant, his responsibilities have ranged from building business plans to the development and implementation of enterprise solutions, marketing, sales and service plans.'
+            description: 'Craig designs and deploys service solutions to streamline data reporting through automation to increase process efficiencies and productivity. As a technology architect, professional services business strategist and professional consultant, his responsibilities have ranged from building business plans to the development and implementation of enterprise solutions, marketing, sales and service plans.',
+            hide: true
           }
-        ]
+        ],
+        hide: true
       },
     ];
   });
