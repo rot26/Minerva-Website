@@ -14,8 +14,8 @@
     </div>
     <div class="media-body">
       <h4 class="media-heading">{{ person.name }}</h4>
-      <p ng-if="person.company">Company: <a href="person.url">{{ person.company }}</a></p>
-      <p ng-if="(!person.company && person.url)">Personal Site: <a href="person.url">{{ person.url }}</a></p>
+      <p ng-if="person.company">Company: <a ng-href="{{person.url}}">{{ person.company }}</a></p>
+      <p ng-if="(!person.company && person.url)">Personal Site: <a ng-href="{{person.url}}">{{ person.url }}</a></p>
       <p>{{ person.description }}</p>
     </div>
   </div>
