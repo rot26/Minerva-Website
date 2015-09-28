@@ -83,6 +83,13 @@ angular.module('minervaioApp')
             img: 'ryan-mccarthy.jpg',
             url: 'http://www.mccarthyarts.com/',
             description: 'For the past 15 years Ryan has lived and breathed the graphic design, digital and multimedia realm. Whether it\'s website creation, video production, managing a team, or creative direction for a mobile app, his passion for smart design and innovation is alive in everything he does.'
+          },
+          {
+            name: 'Kitty Divine and Andrew Gonzalez',
+            img: 'cybertouch.jpg',
+            company: 'Cybertouch',
+            url: 'https://www.elance.com/s/cybertouch/',
+            description: 'Kitty Divine and Andrew Gonzalez act as a "design tank” at Cybertouch consisting of with 20 years experience of all sorts of graphic design. They create everything from amazing website design to UI/OS design and even airbrush wall murals and graffiti. Their motto is: Nothing is Impossible !'
           }
         ]
       },
