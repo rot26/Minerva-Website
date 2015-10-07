@@ -66,6 +66,13 @@ angular.module('minervaioApp')
             url: 'http://hooroohdigital.com /',
             description: 'Needs Description',
             hide: true
+          },
+          {
+            name: 'Jeffrey \'JGu\' Gu',
+            img: 'jgu.jpg',
+            url: 'http://www.jeffreygu.com/',
+            description: 'JGu is a flexible developer interested in JavaScript frameworks, software architecture, data visualizations, and machine learning. He learned about mathematics and business at the University of Pennsylvania\'s Wharton School and web development at the Turing School of Software and Design. Vim and his mechanical keyboard keep his productivity at a maximum.',
+            hide: false
           }
         ]
       },
