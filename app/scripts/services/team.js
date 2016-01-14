@@ -17,25 +17,29 @@ angular.module('minervaioApp')
             name: 'Eric Glasser',
             img: 'eric-glasser.jpg',
             description: 'Eric started his first technology company when he was a student at Vanderbilt. It was a process and content management system for newspapers. After releasing Virtual Newsroom as an open-source project, he started consulting with startups and businesses developing their web applications. He has since spent time in both the advertising world and Fortune 500 technology companies developing enterprise-level applications. He is a full stack engineer with a passion for scalable systems. His core belief is that working with technology doesn\'t have to be a painful process. Now he is looking to bring this expertise to clients with Minerva.'
-          }
+          },
+          {
+            name: 'Ryan \'Cold\' Bush',
+            img: 'ryan-bush.jpg',
+            description: 'Cold has been an industry power house in the mobile realm since his inception in 2008. Working with start-ups all the way up to huge companies such as Lockheed Martin, Tata Consultancy Services, and Apple, Cold has developed a strong communication skill set that allows him to understand client needs. He has experience in every layer of application programming, from database implementations to user interfaces. Cold constantly looks for ways to improve his coding abilities and is always researching the newest code architectures. Expecting the best is a good start when working with him.'
+          },
         ]
       },
       {
         type: 'Developers',
         people: [
           {
-            name: 'Ryan \'Cold\' Bush',
-            img: 'ryan-bush.jpg',
-            company: 'Cold and Logical',
-            url: 'http://www.coldlogical.com/',
-            description: 'Cold has been an industry power house in the mobile realm since his inception in 2008. Working with start-ups all the way up to huge companies such as Lockheed Martin, Tata Consultancy Services, and Apple, Cold has developed a strong communication skill set that allows him to understand client needs. He has experience in every layer of application programming, from database implementations to user interfaces. Cold constantly looks for ways to improve his coding abilities and is always researching the newest code architectures. Expecting the best is a good start when working with him.'
+            name: 'Doug \'rot26\' Rayburn',
+            img: 'chris-coleman.jpg',
+            description: 'Doug is a seasoned creative technologist with over 20 years of professional experience developing enterprise systems and websites. Doug started his professional career at Cambridge Technology Partners in 1995, then served as Director of Internet Operations at DataPlay in 2000. At DataPlay he co-invented ContentKey technology, a DRM solution for DataPlay\'s quarter-sized optical disc. DataPlay won the best-in-show award at the 2001 Consumer Electronics Show.',
           },
           {
             name: 'Doug Rayburn',
             img: 'doug-rayburn.jpg',
             company: 'A Prize Inside, Inc.',
             url: 'http://www.aprizeinside.com/',
-            description: 'Doug is a seasoned creative technologist with over 20 years of professional experience developing enterprise systems and websites. Doug started his professional career at Cambridge Technology Partners in 1995, then served as Director of Internet Operations at DataPlay in 2000. At DataPlay he co-invented ContentKey technology, a DRM solution for DataPlay\'s quarter-sized optical disc. DataPlay won the best-in-show award at the 2001 Consumer Electronics Show.'
+            description: 'Doug is a seasoned creative technologist with over 20 years of professional experience developing enterprise systems and websites. Doug started his professional career at Cambridge Technology Partners in 1995, then served as Director of Internet Operations at DataPlay in 2000. At DataPlay he co-invented ContentKey technology, a DRM solution for DataPlay\'s quarter-sized optical disc. DataPlay won the best-in-show award at the 2001 Consumer Electronics Show.',
+            hide: true
           },
           {
             name: 'Gabriel Walford',
@@ -90,13 +94,6 @@ angular.module('minervaioApp')
             img: 'ryan-mccarthy.jpg',
             url: 'http://www.mccarthyarts.com/',
             description: 'For the past 15 years Ryan has lived and breathed the graphic design, digital and multimedia realm. Whether it\'s website creation, video production, managing a team, or creative direction for a mobile app, his passion for smart design and innovation is alive in everything he does.'
-          },
-          {
-            name: 'Kitty Divine and Andrew Gonzalez',
-            img: 'cybertouch.jpg',
-            company: 'Cybertouch',
-            url: 'https://www.elance.com/s/cybertouch/',
-            description: 'Kitty Divine and Andrew Gonzalez act as a "design tank” at Cybertouch consisting of with 20 years experience of all sorts of graphic design. They create everything from amazing website design to UI/OS design and even airbrush wall murals and graffiti. Their motto is: Nothing is Impossible !'
           }
         ]
       },
