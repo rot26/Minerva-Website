@@ -29,9 +29,9 @@ angular.module('minervaioApp')
         type: 'Developers',
         people: [
           {
-            name: 'Doug \'rot26\' Rayburn',
+            name: 'Chris \'rot26\' Coleman',
             img: 'chris-coleman.jpg',
-            description: 'Doug is a seasoned creative technologist with over 20 years of professional experience developing enterprise systems and websites. Doug started his professional career at Cambridge Technology Partners in 1995, then served as Director of Internet Operations at DataPlay in 2000. At DataPlay he co-invented ContentKey technology, a DRM solution for DataPlay\'s quarter-sized optical disc. DataPlay won the best-in-show award at the 2001 Consumer Electronics Show.',
+            description: 'Chris has been developing web applications professionally since 2008. Chris founded Rot-26 Solutions LLC in 2013 to pursue contracts with his clients full-time, primarily developing web applications with PHP and Python.  Before realigning his career goals with his passions, Chris worked as a mechanical engineer for 7 years focusing on robotics and industrial automation. He focuses on continuous improvement in his life and his work, which resonates well will with the Minerva team.',
           },
           {
             name: 'Doug Rayburn',
