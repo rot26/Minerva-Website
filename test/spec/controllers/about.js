@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: AboutCtrl', function () {
+describe('Controller: VentureCtrl', function () {
 
   // load the controller's module
   beforeEach(module('minervaioApp'));
 
-  var AboutCtrl,
+  var VentureCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    VentureCtrl = $controller('VentureCtrl', {
       $scope: scope
     });
   }));

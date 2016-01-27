@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name minervaioApp.controller:AboutCtrl
+ * @name minervaioApp.controller:DoCtrl
  * @description
- * # AboutCtrl
+ * # DoCtrl
  * Controller of the minervaioApp
  */
 angular.module('minervaioApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('DoCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
