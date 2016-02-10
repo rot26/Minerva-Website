@@ -1,7 +1,10 @@
 {
   "name": "minervaio",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.4",
+    "prerender-node": "^2.2.0"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -38,6 +41,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "start": "node app.js",
+    "postinstall": "grunt build"
   }
 }

@@ -19,7 +19,8 @@ angular
     'angulartics',
     'angulartics.google.analytics'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -41,4 +42,7 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl'
       });
+
+      $locationProvider.html5Mode(true);
+
   });
