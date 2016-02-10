@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "express": "^4.13.4",
+    "grunt-cli": "^0.1.13",
     "prerender-node": "^2.2.0"
   },
   "repository": {},
